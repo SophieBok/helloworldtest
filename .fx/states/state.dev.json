@@ -1,0 +1,40 @@
+{
+    "solution": {
+        "teamsAppTenantId": "92a08751-4e7f-4d66-ab2e-daaf61e255db",
+        "subscriptionId": "19df22ea-8318-4e78-b90d-e952150c72ce",
+        "subscriptionName": "Visual Studio Enterprise Subscription",
+        "tenantId": "92a08751-4e7f-4d66-ab2e-daaf61e255db",
+        "needCreateResourceGroup": false,
+        "resourceGroupName": "hello_world_tab-dev-rg",
+        "location": "centralus",
+        "resourceNameSuffix": "1133eb",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "92a08751-4e7f-4d66-ab2e-daaf61e255db",
+        "teamsAppId": "b142579d-66c3-4738-985e-b82eb58bdda4",
+        "teamsAppUpdatedAt": 1661333022099
+    },
+    "fx-resource-identity": {
+        "identityName": "helloworlddev1133eb",
+        "identityResourceId": "/subscriptions/19df22ea-8318-4e78-b90d-e952150c72ce/resourceGroups/hello_world_tab-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/helloworlddev1133eb",
+        "identityClientId": "41b834a6-5f33-4395-91a0-d9c20d8bbca5"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "5737983d-51c3-43a6-805e-b3dd6ad32d1a",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "99367d01-d346-4f9f-9656-a0a4ad850861",
+        "oauth2PermissionScopeId": "329d0a2d-b9ea-496c-9167-c12c48375a7d",
+        "tenantId": "92a08751-4e7f-4d66-ab2e-daaf61e255db",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/92a08751-4e7f-4d66-ab2e-daaf61e255db",
+        "applicationIdUris": "api://helloworlddev1133ebtab.z19.web.core.windows.net/5737983d-51c3-43a6-805e-b3dd6ad32d1a",
+        "frontendEndpoint": "https://helloworlddev1133ebtab.z19.web.core.windows.net"
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "helloworlddev1133ebtab.z19.web.core.windows.net",
+        "endpoint": "https://helloworlddev1133ebtab.z19.web.core.windows.net",
+        "indexPath": "/index.html#",
+        "storageResourceId": "/subscriptions/19df22ea-8318-4e78-b90d-e952150c72ce/resourceGroups/hello_world_tab-dev-rg/providers/Microsoft.Storage/storageAccounts/helloworlddev1133ebtab"
+    }
+}
